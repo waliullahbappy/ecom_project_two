@@ -1,0 +1,30 @@
+{% extends 'index.html' %}
+{% load static %}
+
+    {% block title_block %}
+    {{setting.title}}
+    {% endblock title_block %}
+
+
+    {% block header_block %}
+    {% include "header.html" %}
+    {% endblock header_block %}
+
+
+    {% block slider_block %}
+    {% include "slider.html" %}
+    {% endblock slider_block %}
+
+
+    {% block content_block %}
+    {% include "content.html" %}
+    {% endblock content_block %}
+
+
+
+
+    {% block footer_block %}
+    {% include "footer.html" %}
+    {% endblock footer_block %}
+
+    
